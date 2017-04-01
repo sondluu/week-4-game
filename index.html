@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="assets\javascript\game.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<h1>Crystal Collector!</h1>
+	</div>
+
+	<div id="content">
+		<div id="instructions">
+			<p>You will be given a random number at the start of the game.
+ 			There are four crystals below By clicking on a crystal you will add a specific amount of points to your total score.
+ 			You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+ 			The value of each crystal is hidden from you until you click on it.
+ 			Each time when the game starts, the game will change the values of each crystal.</p>
+ 		</div>
+	
+ 	<div>
+ 		<p id="randomNumber">random number goes here</p>
+ 	</div>
+
+ 	<div id="scoreKeeping">
+ 		<table>
+			<tr>
+				<td>Wins: </td>
+				<td id="win">0</td>
+			</tr>
+
+			<tr>
+				<td>Losses: </td>
+				<td id="loss">0</td>
+			</tr>
+ 		</table>
+ 	</div>
+
+ 	<div class="crystals">
+ 		<div id="crystalOne">
+ 		<img src="http://www.divineaura.co.uk/wp-content/uploads/2011/03/image18.jpg" width="80" height="80">
+ 		</div>
+
+ 		<div id="crystalTwo">
+ 		<img src="https://s-media-cache-ak0.pinimg.com/originals/ca/bc/d4/cabcd4dc08e0acff1564164f2897f6dd.jpg" width="80" height="80">
+ 		</div>
+
+ 		<div id="crystalThree">
+ 		<img src="https://s-media-cache-ak0.pinimg.com/originals/6e/3e/4c/6e3e4cec24cda4a18af21891b8b237c1.jpg" width="80" height="80">
+ 		</div>
+
+ 		<div id="crystalFour">
+ 		<img src="https://s-media-cache-ak0.pinimg.com/564x/21/c4/11/21c411f6e63323795ec7b5cda1994281.jpg" width="80" height="80">
+ 		</div>
+
+ 		<div>
+ 			<p id="numberOne">number 1 goes here</p>
+ 		</div>
+
+ 		<div>
+ 			<p id="numberTwo">number 2 goes here</p>
+		</div>
+
+		<div>
+			<p id="numberThree">number 3 goes here</p>
+		</div>
+
+		<div>
+			<p id="numberFour">number 4 goes here</p>
+		</div>
+
+ 		<div class="totalScore">
+ 			<p>Your total score is:</p>
+ 			<p id="score">the score number goes here</p>
+
+	</div>
+  
+</body>
+</html>

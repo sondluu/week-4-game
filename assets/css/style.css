@@ -1,0 +1,30 @@
+body {
+	background-color: rgb(200,200,200);
+}
+.container {
+	width: 920px;
+}
+h1 {
+	background-color: DarkCyan;
+}
+p {
+	background-color: #ee3e80;
+	width: 620px;
+}
+.instructions {
+	width: 620px;
+	float: left;
+}
+.gameElement {
+	width: 620px;
+	float: left;
+}
+#win {
+	width: 300px;
+}
+#loss {
+	width: 300px;
+}
+#randomNumber {
+	width: 320x;
+}
