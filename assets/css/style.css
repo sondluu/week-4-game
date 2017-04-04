@@ -1,6 +1,9 @@
 body {
 	background-color: rgb(200,200,200);
 }
+head {
+	font-size: 43px;
+}
 .container {
 	width: 920px;
 }
@@ -14,6 +17,7 @@ p {
 .instructions {
 	width: 620px;
 	float: left;
+	background-color: white;
 }
 .gameElement {
 	width: 620px;
@@ -21,10 +25,29 @@ p {
 }
 #win {
 	width: 300px;
+	font-size: 21px;
 }
 #loss {
 	width: 300px;
+	font-size: 21px;
 }
 #randomNumber {
-	width: 320x;
+	width: 620px;
+	font-size: 34px;
+}
+#numberOne {
+	color: #ee3e80;
+}
+#numberTwo {
+	color: #ee3e80;
+}
+#numberThree {
+	color: #ee3e80;
+}
+#numberFour {
+	color: #ee3e80;
+}
+#score {
+	font-size: 34px;
+	color: white;
 }
