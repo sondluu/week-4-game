@@ -5,7 +5,6 @@ var score = 0;
 
 $(window).load(function(){
 
-
 //random number is generated (19-120)
 var theRandomNumber = randomNumberGenerate();
 
@@ -14,7 +13,6 @@ function randomNumberGenerate(){
 }
 $("#randomNumber").html(theRandomNumber);
 randomNumberGenerate();
-
 
 //
 //random numbers behind cyrstals are also generated (1-12)
@@ -31,32 +29,30 @@ $("#numberTwo").html("<p>" + secondNumber + "</p>");
 $("#numberThree").html("<p>" + thirdNumber + "</p>");
 $("#numberFour").html("<p>" + fourthNumber + "</p");
 
-
-
 //
 //user clicks a crystal, the random number behind that crystal will be added to score
-$("#crystalOne").click(function(){
+$("#crystalOne").on("click",function(){
 	console.log(this);
 	score=score+firstNumber;
 	updateScore();
 	updateWinsAndLosses();
 })
 
-$("#crystalTwo").click(function(){
+$("#crystalTwo").on("click",function(){
 	console.log(this);
   	score=score+secondNumber;
   	updateScore();
 	updateWinsAndLosses();
 })
 
-$("#crystalThree").click(function(){
+$("#crystalThree").on("click",function(){
    console.log(this);
    	score=score+thirdNumber;
    	updateScore();
 	updateWinsAndLosses();
 })
 
-$("#crystalFour").click(function(){
+$("#crystalFour").on("click",function(){
    console.log(this);
    score=score+fourthNumber;
    updateScore();
